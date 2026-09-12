@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="SFXBank" format=3 uid="uid://4g4x10mll12q"]
+
+[ext_resource type="Script" uid="uid://d4c51avobo00f" path="res://resources/audio/se/se.gd" id="1_5r1rn"]
+[ext_resource type="Resource" uid="uid://bmvkvxiatk784" path="res://resources/audio/se/ui/cancel.tres" id="2_p0wuw"]
+[ext_resource type="Script" uid="uid://bxcpynfj6scjb" path="res://resources/audio/se/banks/se_bank.gd" id="2_we2ri"]
+[ext_resource type="Resource" uid="uid://dm38cevev5awh" path="res://resources/audio/se/ui/select.tres" id="3_h186h"]
+[ext_resource type="Resource" uid="uid://vpvnw0kc5axj" path="res://resources/audio/se/ui/cursor_move.tres" id="4_nt58u"]
+
+[resource]
+script = ExtResource("2_we2ri")
+bank = Dictionary[String, ExtResource("1_5r1rn")]({
+"cancel": ExtResource("2_p0wuw"),
+"cursor_move": ExtResource("4_nt58u"),
+"select": ExtResource("3_h186h")
+})
+metadata/_custom_type_script = "uid://bxcpynfj6scjb"

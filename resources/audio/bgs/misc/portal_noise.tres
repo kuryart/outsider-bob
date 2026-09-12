@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="BGS" format=3 uid="uid://c0wtc5w1idssh"]
+
+[ext_resource type="Script" uid="uid://dmouolrsu6toc" path="res://resources/audio/bgs/bgs.gd" id="1_3sbqw"]
+[ext_resource type="AudioStream" uid="uid://c12l1fnt66hh3" path="res://assets/audio/bgs/portal_noise.wav" id="2_1lqm6"]
+
+[resource]
+script = ExtResource("1_3sbqw")
+stream = ExtResource("2_1lqm6")
+metadata/_custom_type_script = "uid://dmouolrsu6toc"

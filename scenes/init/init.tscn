@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://d262x8xnf1s8c"]
+
+[ext_resource type="Script" uid="uid://ckijhjn7oyyp6" path="res://scenes/init/init.gd" id="1_b5ra7"]
+[ext_resource type="PackedScene" uid="uid://bpq8o2bfd05q0" path="res://scenes/logo/logo.tscn" id="2_eba8g"]
+
+[node name="Control" type="Control" unique_id=1033196185]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_b5ra7")
+title_scene = ExtResource("2_eba8g")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1616894077]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)

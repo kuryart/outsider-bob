@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Music" format=3 uid="uid://bi78anidxavod"]
+
+[ext_resource type="Script" uid="uid://bk6ny3gp0nq3b" path="res://resources/audio/bgm/bgm.gd" id="1_mea78"]
+[ext_resource type="AudioStream" uid="uid://okwlwuj3ejrm" path="res://assets/audio/bgm/intro.ogg" id="2_2tw7b"]
+
+[resource]
+script = ExtResource("1_mea78")
+stream = ExtResource("2_2tw7b")
+metadata/_custom_type_script = "uid://bk6ny3gp0nq3b"

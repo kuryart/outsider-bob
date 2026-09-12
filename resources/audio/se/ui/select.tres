@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SFX" format=3 uid="uid://dm38cevev5awh"]
+
+[ext_resource type="Script" uid="uid://d4c51avobo00f" path="res://resources/audio/se/se.gd" id="1_en43x"]
+[ext_resource type="AudioStream" uid="uid://bas3wtb1rkr8q" path="res://assets/audio/se/select.wav" id="2_5rklr"]
+
+[resource]
+script = ExtResource("1_en43x")
+stream = ExtResource("2_5rklr")
+metadata/_custom_type_script = "uid://d4c51avobo00f"

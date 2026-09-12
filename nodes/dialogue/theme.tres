@@ -1,0 +1,26 @@
+[gd_resource type="Theme" format=3 uid="uid://up372ugllyij"]
+
+[ext_resource type="FontFile" uid="uid://1gsgqou7gt8" path="res://fonts/BitstromWeraNerdFont-Regular.ttf" id="1_p3g4i"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ae706"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ae706"]
+content_margin_left = 30.0
+content_margin_top = 20.0
+content_margin_right = 30.0
+content_margin_bottom = 15.0
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[resource]
+default_font_size = 12
+Label/font_sizes/font_size = 12
+Label/fonts/font = ExtResource("1_p3g4i")
+Label/styles/focus = SubResource("StyleBoxEmpty_ae706")
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_ae706")
+RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
+RichTextLabel/font_sizes/normal_font_size = 12
+RichTextLabel/fonts/normal_font = ExtResource("1_p3g4i")

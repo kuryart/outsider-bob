@@ -1,0 +1,70 @@
+[gd_resource type="Theme" format=3 uid="uid://80saqv8iului"]
+
+[ext_resource type="FontFile" uid="uid://1gsgqou7gt8" path="res://fonts/BitstromWeraNerdFont-Regular.ttf" id="1_xqglo"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ia1n6"]
+content_margin_left = 20.0
+content_margin_right = 20.0
+bg_color = Color(0.09019608, 0.09019608, 0.09019608, 0.5882353)
+border_color = Color(0.41981313, 0.4198132, 0.4198129, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ld0ql"]
+bg_color = Color(0, 0.28235295, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.54509807, 0.49019608, 0.003921569, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wmdlg"]
+content_margin_left = 20.0
+content_margin_right = 20.0
+bg_color = Color(0, 0.28235295, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.54509807, 0.49019608, 0.003921569, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w65of"]
+content_margin_left = 20.0
+content_margin_right = 20.0
+bg_color = Color(0, 0, 0, 0.78431374)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xqglo"]
+content_margin_left = 20.0
+content_margin_right = 20.0
+bg_color = Color(8.904189e-07, 0.47967845, 0.3138965, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.54509807, 0.49019608, 0.003921569, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[resource]
+Button/fonts/font = ExtResource("1_xqglo")
+Button/styles/disabled = SubResource("StyleBoxFlat_ia1n6")
+Button/styles/focus = SubResource("StyleBoxFlat_ld0ql")
+Button/styles/hover = SubResource("StyleBoxFlat_wmdlg")
+Button/styles/normal = SubResource("StyleBoxFlat_w65of")
+Button/styles/pressed = SubResource("StyleBoxFlat_xqglo")

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="BobData" format=3 uid="uid://bp13emkvnv2xl"]
+
+[ext_resource type="Script" uid="uid://bacgfyk5vovt1" path="res://resources/char/bob/bob_data.gd" id="1_13ilf"]
+
+[resource]
+script = ExtResource("1_13ilf")
+status = "tired"
+direction_looking = 1
+metadata/_custom_type_script = "uid://bacgfyk5vovt1"

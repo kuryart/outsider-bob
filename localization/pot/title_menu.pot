@@ -1,0 +1,31 @@
+# LANGUAGE translation for Outsider Bob for the following files:
+# res://scenes/title.tscn
+#
+# FIRST AUTHOR kuryart1@gmail.com, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Outsider Bob\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: scenes/title.tscn
+msgid "NEW GAME"
+msgstr "Bla"
+
+#: scenes/title.tscn
+msgid "LOAD GAME"
+msgstr "Bal"
+
+#: scenes/title.tscn
+msgid "OPTIONS"
+msgstr "Blaa"
+
+#: scenes/title.tscn
+msgid "EXIT\n"
+msgstr "Blaab"
+
+msgid "Outsider Bob"
+msgstr "Bob Forasteiro"

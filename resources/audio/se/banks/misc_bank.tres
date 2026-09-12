@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="SFXBank" format=3 uid="uid://cnltqtio46hnh"]
+
+[ext_resource type="Script" uid="uid://d4c51avobo00f" path="res://resources/audio/se/se.gd" id="1_f3bt2"]
+[ext_resource type="Script" uid="uid://bxcpynfj6scjb" path="res://resources/audio/se/banks/se_bank.gd" id="2_cr71g"]
+[ext_resource type="Resource" uid="uid://bpmmwcwhyfarv" path="res://resources/audio/se/misc/portal.tres" id="2_dtlhb"]
+
+[resource]
+script = ExtResource("2_cr71g")
+bank = Dictionary[String, ExtResource("1_f3bt2")]({
+"portal": ExtResource("2_dtlhb")
+})
+metadata/_custom_type_script = "uid://bxcpynfj6scjb"

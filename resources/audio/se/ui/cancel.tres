@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SFX" format=3 uid="uid://bmvkvxiatk784"]
+
+[ext_resource type="Script" uid="uid://d4c51avobo00f" path="res://resources/audio/se/se.gd" id="1_g1un1"]
+[ext_resource type="AudioStream" uid="uid://dxi6fbo53cbay" path="res://assets/audio/se/cancel.wav" id="2_sih7n"]
+
+[resource]
+script = ExtResource("1_g1un1")
+stream = ExtResource("2_sih7n")
+metadata/_custom_type_script = "uid://d4c51avobo00f"

@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cnlntu6ix7uwf"]
+
+[ext_resource type="Shader" uid="uid://cksmmjbdwl8cp" path="res://nodes/misc/test/test_shader.gdshader" id="1_h7jon"]
+
+[resource]
+shader = ExtResource("1_h7jon")
+shader_parameter/wave_amplitude = 0.02
+shader_parameter/wave_frequency = 10.0
+shader_parameter/wave_speed = 4.0

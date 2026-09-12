@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bl64yqi2mclae"]
+
+[ext_resource type="Shader" uid="uid://chw1g73eumgb4" path="res://nodes/misc/portal/portal.gdshader" id="1_ld0ql"]
+
+[resource]
+shader = ExtResource("1_ld0ql")
+shader_parameter/glow_color = Color(0.2, 0.8, 1, 1)
+shader_parameter/glow_power = 1.0000000149012
+shader_parameter/glow_radius = 20.0

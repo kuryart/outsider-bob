@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://bdqod05f7soio"]
+
+[ext_resource type="Texture2D" uid="uid://bxwd80clbjkka" path="res://src/ground/ground.png" id="1_ive1o"]
+[ext_resource type="Script" uid="uid://dfpq6phjod2cg" path="res://scenes/first_scene/first_scene.gd" id="1_sj4b4"]
+[ext_resource type="Resource" uid="uid://cymv3h1x15gjc" path="res://scenes/first_scene/dialogues/first_scene_dialogue_01.dialogue" id="2_qgd1q"]
+[ext_resource type="PackedScene" uid="uid://cox8ve3prsqkg" path="res://nodes/char/bob.tscn" id="2_tgdok"]
+[ext_resource type="Script" uid="uid://bd046eokvcnu2" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="5_han5p"]
+[ext_resource type="Script" uid="uid://bhexx6mj1xv3q" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd" id="6_thehm"]
+[ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="7_x258p"]
+[ext_resource type="Texture2D" uid="uid://drt5dc1qaaeh7" path="res://src/frizz/frizz.png" id="8_thehm"]
+
+[sub_resource type="Resource" id="Resource_wy2na"]
+script = ExtResource("7_x258p")
+
+[node name="FirstScene" type="Node2D" unique_id=871219804]
+script = ExtResource("1_sj4b4")
+dialogue_01 = ExtResource("2_qgd1q")
+
+[node name="Ground_01" type="Sprite2D" parent="." unique_id=1144025115]
+position = Vector2(640, 360)
+texture = ExtResource("1_ive1o")
+
+[node name="Ground_02" type="Sprite2D" parent="." unique_id=2130736192]
+position = Vector2(1920, 360)
+texture = ExtResource("1_ive1o")
+
+[node name="Ground_03" type="Sprite2D" parent="." unique_id=984876166]
+position = Vector2(3200, 360)
+texture = ExtResource("1_ive1o")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1437927523]
+position = Vector2(616, 384)
+texture = ExtResource("8_thehm")
+
+[node name="Bob" parent="." unique_id=1226768601 instance=ExtResource("2_tgdok")]
+position = Vector2(96, 456)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1592267649]
+physics_interpolation_mode = 1
+position = Vector2(640, 360)
+process_callback = 0
+limit_enabled = false
+limit_left = 0
+limit_top = 0
+limit_right = 3840
+limit_bottom = 720
+editor_draw_limits = true
+
+[node name="PhantomCameraHost" type="Node" parent="Camera2D" unique_id=1866471007]
+process_priority = 300
+process_physics_priority = 300
+script = ExtResource("5_han5p")
+interpolation_mode = 2
+metadata/_custom_type_script = "uid://bd046eokvcnu2"
+
+[node name="PhantomCamera2D" type="Node2D" parent="." unique_id=1202776349 node_paths=PackedStringArray("follow_target")]
+top_level = true
+position = Vector2(640, 360)
+script = ExtResource("6_thehm")
+follow_mode = 2
+follow_target = NodePath("../Bob")
+tween_resource = SubResource("Resource_wy2na")
+draw_limits = true
+limit_left = 0
+limit_top = 0
+limit_right = 3840
+limit_bottom = 720
+metadata/_custom_type_script = "uid://bhexx6mj1xv3q"

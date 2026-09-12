@@ -1,0 +1,2 @@
+- [Old Books Images](https://www.oldbookillustrations.com/illustrations/psyche-abandoned/)
+- Public Domain
