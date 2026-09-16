@@ -2,7 +2,9 @@
 
 [ext_resource type="Script" uid="uid://brgb2ucvqyhge" path="res://nodes/autoload/game_controller.gd" id="1_g163v"]
 [ext_resource type="PackedScene" uid="uid://covyosa222o3j" path="res://nodes/dialogue/dialogue_balloon.tscn" id="2_y6fra"]
+[ext_resource type="Resource" uid="uid://brxiylrcdur8t" path="res://resources/game_data/test_game_data.tres" id="3_5ebh1"]
 
 [node name="GameController" type="Node" unique_id=782846349]
 script = ExtResource("1_g163v")
 dialogue_balloon = ExtResource("2_y6fra")
+game_data = ExtResource("3_5ebh1")

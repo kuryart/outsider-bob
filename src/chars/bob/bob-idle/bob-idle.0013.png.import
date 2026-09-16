@@ -3,21 +3,23 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4vvmb1ql5834"
-path="res://.godot/imported/bob-idle.0013.png-4ccf1430474b3d156bd26fc27c7c5c50.ctex"
+path="res://.godot/imported/bob-idle.0013.png-c531e129b695c5c062c5e72da9c9f26a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/bob-idle/bob-idle.0013.png"
-dest_files=["res://.godot/imported/bob-idle.0013.png-4ccf1430474b3d156bd26fc27c7c5c50.ctex"]
+source_file="res://src/chars/bob/bob-idle/bob-idle.0013.png"
+dest_files=["res://.godot/imported/bob-idle.0013.png-c531e129b695c5c062c5e72da9c9f26a.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
@@ -25,6 +27,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

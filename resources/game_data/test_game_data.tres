@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="GameData" format=3 uid="uid://brxiylrcdur8t"]
+
+[ext_resource type="Script" uid="uid://dlj1yu1jg5mpx" path="res://resources/game_data/game_data.gd" id="1_p8d25"]
+[ext_resource type="Resource" uid="uid://cax6b8qv0r13n" path="res://resources/switches/switches.tres" id="2_dy6h1"]
+[ext_resource type="Resource" uid="uid://de2lt4auvggio" path="res://resources/vocabulary/vocabulary.tres" id="3_0nxoq"]
+
+[resource]
+script = ExtResource("1_p8d25")
+switches = ExtResource("2_dy6h1")
+vocabulary = ExtResource("3_0nxoq")
+metadata/_custom_type_script = "uid://dlj1yu1jg5mpx"

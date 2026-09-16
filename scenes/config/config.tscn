@@ -1,0 +1,156 @@
+[gd_scene format=3 uid="uid://ganwxk8yh326"]
+
+[ext_resource type="Theme" uid="uid://80saqv8iului" path="res://nodes/ui/theme/main.tres" id="1_2gcvg"]
+[ext_resource type="Script" uid="uid://xptj8uqx6qks" path="res://scenes/config/config.gd" id="2_sk7xq"]
+[ext_resource type="Texture2D" uid="uid://1yblxrol5nj8" path="res://assets/sprites/misc/countries-flags/us.png" id="3_8teec"]
+[ext_resource type="Texture2D" uid="uid://bg70bdugac355" path="res://assets/sprites/misc/countries-flags/br.png" id="4_asbv2"]
+[ext_resource type="Texture2D" uid="uid://f3smjbtdkn3e" path="res://assets/sprites/misc/countries-flags/es.png" id="5_v81m7"]
+
+[node name="Config" type="Control" unique_id=250136666]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_2gcvg")
+script = ExtResource("2_sk7xq")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=8459957]
+layout_mode = 0
+offset_left = 192.0
+offset_right = 1088.0
+offset_bottom = 720.0
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=1943375986]
+layout_mode = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer" unique_id=442348187]
+layout_mode = 2
+
+[node name="Difficulty" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=2024105036]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "DIFFICULTY"
+
+[node name="HSeparator" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=265072398]
+layout_mode = 2
+size_flags_vertical = 0
+offset_transform_enabled = true
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=216747407]
+layout_mode = 2
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="DifficultyCheckBox" type="CheckBox" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1039737380]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 8
+button_pressed = true
+text = "Hard"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1584697032]
+layout_mode = 2
+bbcode_enabled = true
+text = "[i]You have no options. Life is hard, dude.[/i]"
+fit_content = true
+horizontal_alignment = 2
+
+[node name="MarginContainer2" type="MarginContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=398835422]
+layout_mode = 2
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Visual" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1932106600]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 22
+text = "VISUAL"
+
+[node name="HSeparator2" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=13038458]
+layout_mode = 2
+size_flags_vertical = 0
+offset_transform_enabled = true
+
+[node name="MarginContainer4" type="MarginContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1144434463]
+layout_mode = 2
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VisualButtonsContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1251857179]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 4
+
+[node name="DLSS" type="CheckButton" parent="PanelContainer/MarginContainer/VBoxContainer/VisualButtonsContainer" unique_id=317391584]
+layout_mode = 2
+size_flags_vertical = 3
+text = "DLSS"
+
+[node name="V-Sync" type="CheckButton" parent="PanelContainer/MarginContainer/VBoxContainer/VisualButtonsContainer" unique_id=1409862864]
+layout_mode = 2
+size_flags_vertical = 3
+text = "V-Sync"
+
+[node name="Anti-Aliasing" type="CheckButton" parent="PanelContainer/MarginContainer/VBoxContainer/VisualButtonsContainer" unique_id=1800408560]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Anti-Aliasing"
+
+[node name="CharactersCreaminess" type="CheckButton" parent="PanelContainer/MarginContainer/VBoxContainer/VisualButtonsContainer" unique_id=928059734]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Character's Creaminess"
+
+[node name="MarginContainer3" type="MarginContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1096314225]
+layout_mode = 2
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1552505861]
+layout_mode = 2
+bbcode_enabled = true
+text = "[i]Visual options do nothing. But you can change them. You have free will.[/i]"
+fit_content = true
+horizontal_alignment = 2
+
+[node name="MarginContainer5" type="MarginContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1136768108]
+layout_mode = 2
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Language" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1330201328]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 22
+text = "LANGUAGE"
+
+[node name="HSeparator3" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=798609004]
+layout_mode = 2
+size_flags_vertical = 0
+offset_transform_enabled = true
+
+[node name="MarginContainer6" type="MarginContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=427672722]
+layout_mode = 2
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="OptionButton" type="OptionButton" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1919000929]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 2
+item_count = 3
+popup/item_0/text = "English"
+popup/item_0/icon = ExtResource("3_8teec")
+popup/item_0/id = 0
+popup/item_1/text = "Português (BR)"
+popup/item_1/icon = ExtResource("4_asbv2")
+popup/item_1/id = 1
+popup/item_2/text = "Español"
+popup/item_2/icon = ExtResource("5_v81m7")
+popup/item_2/id = 2

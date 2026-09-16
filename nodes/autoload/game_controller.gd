@@ -1,9 +1,10 @@
 extends Node
 
 @export var can_move: bool = false
-@export var switches: Dictionary[String, bool]
 @export var dialogue_balloon: PackedScene
+@export var game_data: GameData
 
 func _ready() -> void:
+	#TranslationServer.set_locale("en")
 	TranslationServer.set_locale("pt_BR")
-	#get_tree().root.propagate_notification(NOTIFICATION_TRANSLATION_CHANGED)
+	#TranslationServer.set_locale("es")

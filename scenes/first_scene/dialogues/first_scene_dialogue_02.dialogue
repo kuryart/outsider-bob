@@ -1,0 +1,54 @@
+~ start
+Frizz: Hold it right there, outsider! Where did you come from and where are you going?
+$> wait(2.0)
+Bob: What the... who are you?
+Frizz: Greetings! My name is Frizz.
+Frizz: I'm the guardian of the main gate of Haledor.
+Bob: Hale... the what?
+Frizz: Haledor. That's the name of our world.
+Frizz: How do you not know it?
+Bob: Well... I... I'm confused.
+Bob: I was in my office at work, something appeared, sucked me in and brought me here.
+Frizz: Oh, I see. I hate things that suck. They're unpredictable.
+Frizz: Welcome to Haledor, outsider!
+Frizz: By the way, what's your name?
+Bob: Bob. My name is Bob.
+Bob: Tell me something, we're not on planet Earth, are we?
+Frizz: What's planet Earth? Is it something you eat?
+Bob: Right, we're not...
+Bob: Can you tell me how we get out of Hale...
+Frizz: Haledor!
+Bob: Yeah, Haledor. Can you tell me how I get out of here?
+Bob: I need to get home before 7:00 PM, my wife is going to worry and I still have to make dinner.
+Frizz: Hahaha! That's a good one! Leave Haledor...
+Bob: What's so funny?
+Frizz: Friend, nobody "leaves Haledor." Beings only arrive here, but they never leave.
+Bob: You've got to be kidding me.
+Bob: I need to go to work tomorrow. My boss is going to be furious.
+Frizz: I'm sorry, but I'm not kidding.
+Frizz: Haledor is a world carefully created by the God King to be paradise. Sometimes he creates beings that arrive here and pass through the gate beside me.
+Frizz: But the only way to leave here is... well... you know, right?
+Bob: I don't know, what's the only way to leave here?
+Frizz: Dead.
+Bob: Yikes!
+Bob: And where is this God King? Maybe he can get me out of here if I talk to him.
+Frizz: Nobody talks to the God King. He's always the one who talks to us, never the other way around.
+Bob: That's just great... who does this guy think he is?
+Frizz: Shh... are you crazy? Do you want him to hear you?
+Frizz: Nobody talks about the God King like that!
+Frizz: I see you really don't know him. Nobody survives his divine wrath. I don't know how he hasn't sent a lightning bolt straight at your head yet.
+Bob: Whoa!
+Bob: Okay, I'll be careful.
+$> wait(1.0)
+Bob: Hey... where does this door lead?
+# Tiles Square is a joke with Times Square. Don't translate.
+Frizz: It takes you directly to the {{ GameController.game_data.vocabulary.list["main_plaza"] }}.
+Bob: I think I'll take my chances and see if someone can help me get out of here.
+Frizz: Good luck on your journey, outsider Bob.
+Frizz: But first, I need to clarify something...
+Frizz: The beings of Haledor are created by the God King already knowing our world, and all other beings find out about their arrivals immediately.
+Frizz: You're the first being that seems to have come from somewhere else, and I didn't know you were going to arrive.
+Frizz: I may be friendly, but not everyone here is. Be careful.
+Bob: I'll take care of myself. Thanks for the warning.
+Frizz: Don't mention it. Good luck!
+=> END

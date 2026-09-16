@@ -1,0 +1,14 @@
+# pt_br
+~ start
+Bob: O que acabou de acontecer?
+=> END
+
+# en
+~ start
+Bob: What just happened?
+=> END
+
+# es
+~ start
+Bob: ¿Qué acaba de se pasar? 
+=> END

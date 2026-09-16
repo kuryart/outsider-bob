@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Vocabulary" format=3 uid="uid://de2lt4auvggio"]
+
+[ext_resource type="Script" uid="uid://b5teju01fr1sk" path="res://resources/vocabulary/vocabulary.gd" id="1_p4y4s"]
+
+[resource]
+script = ExtResource("1_p4y4s")
+list = Dictionary[String, String]({
+"main_plaza": "Tiles Square"
+})
+metadata/_custom_type_script = "uid://b5teju01fr1sk"

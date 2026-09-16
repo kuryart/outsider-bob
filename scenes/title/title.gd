@@ -54,5 +54,6 @@ func _on_new_game_pressed():
 	await bob_anim.animation_finished
 	await Commands.wait(3.0)
 	await Fade.fade_out(4.0).finished
+	Audio.stop_bgs()
 	Commands.change_scene(first_scene)
 	await Fade.fade_in(4.0).finished

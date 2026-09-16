@@ -1,16 +1,16 @@
 [gd_scene format=3 uid="uid://bwlmyon4haeay"]
 
 [ext_resource type="Script" uid="uid://0kyfiek8xi4o" path="res://scenes/title/title.gd" id="1_7uqqr"]
-[ext_resource type="Resource" uid="uid://bp4xd6k8iyo8r" path="res://dialogues/intro.dialogue" id="2_784tc"]
+[ext_resource type="Resource" uid="uid://bp4xd6k8iyo8r" path="res://scenes/title/dialogues/intro.dialogue" id="2_784tc"]
 [ext_resource type="PackedScene" uid="uid://bdqod05f7soio" path="res://scenes/first_scene/first_scene.tscn" id="3_784tc"]
-[ext_resource type="Texture2D" uid="uid://fagbog0w1kvr" path="res://assets/sprites/scenario/office2.2.png" id="3_rtgr4"]
+[ext_resource type="Texture2D" uid="uid://b8o067sdoqg3u" path="res://assets/sprites/scenario/intro/office2.2.png" id="4_784tc"]
 [ext_resource type="Script" uid="uid://bd046eokvcnu2" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="4_agu86"]
 [ext_resource type="Script" uid="uid://bhexx6mj1xv3q" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd" id="5_bjs8b"]
 [ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="6_dawno"]
 [ext_resource type="Material" uid="uid://bl64yqi2mclae" path="res://nodes/misc/portal/portal_shader.tres" id="7_xraam"]
 [ext_resource type="Texture2D" uid="uid://dr7bu48ejuyhx" path="res://assets/sprites/misc/portal.png" id="8_1cwff"]
 [ext_resource type="Script" uid="uid://dpeggy28w47p" path="res://nodes/misc/portal/portal.gd" id="9_hgyff"]
-[ext_resource type="PackedScene" uid="uid://cox8ve3prsqkg" path="res://nodes/char/bob.tscn" id="10_ucj5f"]
+[ext_resource type="PackedScene" uid="uid://cox8ve3prsqkg" path="res://nodes/char/bob/bob.tscn" id="10_ucj5f"]
 [ext_resource type="Theme" uid="uid://80saqv8iului" path="res://nodes/ui/theme/main.tres" id="11_bqdq2"]
 [ext_resource type="Texture2D" uid="uid://b1qyd8xw6je0x" path="res://assets/sprites/logo/outsider-bob-logo-small.png" id="12_wfckv"]
 [ext_resource type="Script" uid="uid://dumrha0cuvcyh" path="res://nodes/ui/ui_button.gd" id="13_qp135"]
@@ -81,21 +81,6 @@ _data = {
 &"glow": SubResource("Animation_ygloa")
 }
 
-[sub_resource type="Animation" id="Animation_6civk"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:scale")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(1, 1)]
-}
-
 [sub_resource type="Animation" id="Animation_7af2g"]
 resource_name = "scale"
 length = 1.6
@@ -114,7 +99,6 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_81wt4"]
 _data = {
-&"RESET": SubResource("Animation_6civk"),
 &"scale": SubResource("Animation_7af2g")
 }
 
@@ -179,10 +163,11 @@ first_scene = ExtResource("3_784tc")
 
 [node name="back" type="Sprite2D" parent="." unique_id=378580724]
 position = Vector2(640, 360)
-texture = ExtResource("3_rtgr4")
+texture = ExtResource("4_784tc")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=594011850]
 position = Vector2(640, 360)
+editor_draw_limits = true
 
 [node name="PhantomCameraHost" type="Node" parent="Camera2D" unique_id=1421640480]
 process_priority = 300
@@ -195,6 +180,7 @@ unique_name_in_owner = true
 position = Vector2(640, 360)
 script = ExtResource("5_bjs8b")
 tween_resource = SubResource("Resource_hiwto")
+draw_limits = true
 metadata/_custom_type_script = "uid://bhexx6mj1xv3q"
 
 [node name="Portal" type="Sprite2D" parent="." unique_id=1285750701]
@@ -202,6 +188,7 @@ unique_name_in_owner = true
 visible = false
 material = ExtResource("7_xraam")
 position = Vector2(640, 336)
+scale = Vector2(1e-05, 1e-05)
 texture = ExtResource("8_1cwff")
 script = ExtResource("9_hgyff")
 
@@ -251,7 +238,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 40)
 layout_mode = 2
 disabled = true
-text = "NEW GAME"
+text = "title_new_game"
 script = ExtResource("13_qp135")
 
 [node name="load_game_button" type="Button" parent="main_menu/menu_items/VBoxContainer" unique_id=222849373]
@@ -259,7 +246,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 40)
 layout_mode = 2
 disabled = true
-text = "LOAD GAME"
+text = "title_load_game"
 script = ExtResource("13_qp135")
 
 [node name="options_button" type="Button" parent="main_menu/menu_items/VBoxContainer" unique_id=279714118]
@@ -267,7 +254,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 40)
 layout_mode = 2
 disabled = true
-text = "OPTIONS"
+text = "title_options"
 script = ExtResource("13_qp135")
 
 [node name="exit_button" type="Button" parent="main_menu/menu_items/VBoxContainer" unique_id=700772110]
@@ -275,7 +262,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 40)
 layout_mode = 2
 disabled = true
-text = "EXIT
+text = "title_exit
 "
 script = ExtResource("13_qp135")
 

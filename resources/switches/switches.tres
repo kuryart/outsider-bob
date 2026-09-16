@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Switches" format=3 uid="uid://cax6b8qv0r13n"]
+
+[ext_resource type="Script" uid="uid://dy4hp06uiul2t" path="res://resources/switches/switches.gd" id="1_et770"]
+
+[resource]
+script = ExtResource("1_et770")
+list = Dictionary[String, bool]({
+"frizz_first_dialogue": false
+})
+metadata/_custom_type_script = "uid://dy4hp06uiul2t"

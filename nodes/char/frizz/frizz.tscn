@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://cj34kvjakvodx"]
+
+[ext_resource type="Texture2D" uid="uid://cgtdr611bqf0b" path="res://assets/sprites/char/frizz/frizz.png" id="1_8kig0"]
+[ext_resource type="Script" uid="uid://cymneejqgkvi" path="res://nodes/char/frizz/frizz.gd" id="2_kdm33"]
+[ext_resource type="Script" uid="uid://chwc7kss4agi8" path="res://nodes/dialogue/dialogue_marker.gd" id="3_kdm33"]
+[ext_resource type="Script" uid="uid://ccikan8py86rx" path="res://nodes/event/event.gd" id="4_6bmd0"]
+[ext_resource type="Script" uid="uid://btqelnr8vfuoo" path="res://scenes/first_scene/events/frizz_dialogue_02.gd" id="5_i8kt1"]
+[ext_resource type="Resource" uid="uid://l8825yq1slyc" path="res://scenes/first_scene/dialogues/first_scene_dialogue_03.dialogue" id="6_66xef"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xfr7c"]
+size = Vector2(106, 46)
+
+[node name="Frizz" type="Sprite2D" unique_id=1175049130]
+texture = ExtResource("1_8kig0")
+script = ExtResource("2_kdm33")
+
+[node name="DialogueMarker" type="Marker2D" parent="." unique_id=775415448]
+position = Vector2(0, -212)
+script = ExtResource("3_kdm33")
+character_name = "Frizz"
+metadata/_custom_type_script = "uid://chwc7kss4agi8"
+
+[node name="Event" type="Area2D" parent="." unique_id=880777397]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("4_6bmd0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Event" unique_id=1444871107]
+position = Vector2(-5, 161)
+shape = SubResource("RectangleShape2D_xfr7c")
+
+[node name="EventBus" type="Node" parent="Event" unique_id=1255326587]
+script = ExtResource("5_i8kt1")
+dialogue = ExtResource("6_66xef")

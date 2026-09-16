@@ -1,0 +1,17 @@
+# pt_BR
+~ start
+Frizz: Eu perdi meu celular. Se você encontrá-lo, pode me devolver?
+Frizz: Não vá roubá-lo, ein?
+=> END
+
+# en
+~ start
+Frizz: I lost my cell phone. If you find it, could you give it me back?
+Frizz: Don't steal it, ok?
+=> END
+
+# es
+~ start
+Frizz: Perdí mi celular. Si lo encuentras, ¿me lo puedes devolver?
+Frizz: No vayas a robármelo, ¿eh? 
+=> END

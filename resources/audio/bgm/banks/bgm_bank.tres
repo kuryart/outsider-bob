@@ -1,12 +1,14 @@
-[gd_resource type="Resource" script_class="MusicBank" format=3 uid="uid://dmtgkl6yehllw"]
+[gd_resource type="Resource" script_class="BGMBank" format=3 uid="uid://dmtgkl6yehllw"]
 
 [ext_resource type="Script" uid="uid://bk6ny3gp0nq3b" path="res://resources/audio/bgm/bgm.gd" id="1_2hk0u"]
 [ext_resource type="Resource" uid="uid://bi78anidxavod" path="res://resources/audio/bgm/intro/intro.tres" id="2_55iay"]
 [ext_resource type="Script" uid="uid://brpi64sj62i36" path="res://resources/audio/bgm/banks/bgm.gd" id="2_op88m"]
+[ext_resource type="Resource" uid="uid://b60djjl4uc4l0" path="res://resources/audio/bgm/first_scene/first_scene.tres" id="3_3cw04"]
 
 [resource]
 script = ExtResource("2_op88m")
 bank = Dictionary[String, ExtResource("1_2hk0u")]({
+"first_scene": ExtResource("3_3cw04"),
 "intro": ExtResource("2_55iay")
 })
 metadata/_custom_type_script = "uid://brpi64sj62i36"

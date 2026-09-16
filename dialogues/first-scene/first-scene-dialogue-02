@@ -1,0 +1,163 @@
+~ start
+Frizz: Alto lá, forasteiro! De onde veio e para onde vai?
+$> wait(2.0)
+Bob: Mas o que... quem é você?
+Frizz: Saudações! Eu me chamo Frizz.
+Frizz: Sou o guardião do portão principal de Haledor.
+Bob: Hale... o que?
+Frizz: Haledor. Este é o nome de nosso mundo.
+Frizz: Como você não o conhece?
+Bob: Bem... eu... estou confuso.
+Bob: Eu estava na minha sala no meu escritório, alguma coisa apareceu, me sugou e me trouxe para cá.
+Frizz: Oh, entendo. Eu odeio coisas que sugam. Elas são imprevisíveis.
+Frizz: Seja bem-vindo a Haledor, forasteiro!
+Frizz: À propósito, como você se chama?
+Bob: Bob. Meu nome é Bob.
+Bob: Me diz uma coisa, nós não estamos no planeta Terra, né?
+Frizz: O que é planeta Terra? É de comer?
+Bob: Certo, não estamos...
+Bob: Você sabe me dizer como vamos embora de Hale...
+Frizz: Haledor!
+Bob: Isso, Haledor. Você sabe me dizer como eu vou embora daqui?
+Bob: Preciso chegar em casa antes das 19:00, minha esposa vai ficar preocupada e eu ainda tenho que fazer a janta.
+Frizz: Hahaha! Essa é boa! Ir embora de Haledor...
+Bob: Qual é a graça?
+Frizz: Amigo, ninguém "vai embora de Haledor". Os seres apenas chegam aqui, mas nunca vão embora.
+Bob: Você só pode estar brincando.
+Bob: Eu preciso ir trabalhar amanhã. Meu chefe vai ficar furioso.
+Frizz: Sinto muito, mas não estou brincando.
+Frizz: Haledor é um mundo cuidadosamente criado pelo Rei Deus para ser o paraíso. Às vezes ele cria seres que chegam aqui e atravessam o portão ao meu lado.
+Frizz: Mas a única forma de sair daqui é... bem... você sabe, né?
+Bob: Não sei, qual é a única forma de sair daqui?
+Frizz: Morto.
+Bob: Credo!
+Bob: E onde está esse tal Rei Deus? Talvez ele possa me tirar daqui se eu falar com ele.
+Frizz: Ninguém fala com Rei Deus. É sempre ele que fala conosco, nunca o contrário.
+Bob: Só faltava essa... quem esse cara pensa que é?
+Frizz: Psiu... está doido? Quer que ele te ouça?
+Frizz: Ninguém fala assim do Rei Deus!
+Frizz: Vejo que você não o conhece mesmo. Ninguém sobrevive à sua ira divina. Não sei como ele ainda não mandou um raio direto na sua cabeça.
+Bob: Eita!
+Bob: Ok, vou tomar cuidado.
+$> wait(1.0)
+Bob: Vem cá... onde esta porta vai dar?
+Frizz: Ela te leva diretamente à {{ GameController.game_data.vocabulary.list["main_plaza"] }}.
+Bob: Acho que vou me arriscar e ver se alguém consegue me ajudar a sair daqui.
+Frizz: Boa sorte em sua jornada, forasteiro Bob.
+Frizz: Mas antes, preciso esclarecer uma coisa...
+Frizz: Os seres de Haledor já são criados pelo Rei Deus conhecendo nosso mundo, e todos os outros seres ficam sabendo imediatamente de suas chegadas.
+Frizz: Você é o primeiro ser que parece ter vindo de outro lugar, e eu não sabia que você iria chegar.
+Frizz: Eu posso ser simpático, mas nem todos aqui são. Tenha cuidado.
+Bob: Eu vou me cuidar. Obrigado pelo aviso.
+Frizz: Imagina. Boa sorte!
+=> END
+
+# en
+~ start
+Frizz: Hold it right there, outsider! Where did you come from and where are you going?
+$> wait(2.0)
+Bob: What the... who are you?
+Frizz: Greetings! My name is Frizz.
+Frizz: I'm the guardian of the main gate of Haledor.
+Bob: Hale... the what?
+Frizz: Haledor. That's the name of our world.
+Frizz: How do you not know it?
+Bob: Well... I... I'm confused.
+Bob: I was in my office at work, something appeared, sucked me in and brought me here.
+Frizz: Oh, I see. I hate things that suck. They're unpredictable.
+Frizz: Welcome to Haledor, outsider!
+Frizz: By the way, what's your name?
+Bob: Bob. My name is Bob.
+Bob: Tell me something, we're not on planet Earth, are we?
+Frizz: What's planet Earth? Is it something you eat?
+Bob: Right, we're not...
+Bob: Can you tell me how we get out of Hale...
+Frizz: Haledor!
+Bob: Yeah, Haledor. Can you tell me how I get out of here?
+Bob: I need to get home before 7:00 PM, my wife is going to worry and I still have to make dinner.
+Frizz: Hahaha! That's a good one! Leave Haledor...
+Bob: What's so funny?
+Frizz: Friend, nobody "leaves Haledor." Beings only arrive here, but they never leave.
+Bob: You've got to be kidding me.
+Bob: I need to go to work tomorrow. My boss is going to be furious.
+Frizz: I'm sorry, but I'm not kidding.
+Frizz: Haledor is a world carefully created by the God King to be paradise. Sometimes he creates beings that arrive here and pass through the gate beside me.
+Frizz: But the only way to leave here is... well... you know, right?
+Bob: I don't know, what's the only way to leave here?
+Frizz: Dead.
+Bob: Yikes!
+Bob: And where is this God King? Maybe he can get me out of here if I talk to him.
+Frizz: Nobody talks to the God King. He's always the one who talks to us, never the other way around.
+Bob: That's just great... who does this guy think he is?
+Frizz: Shh... are you crazy? Do you want him to hear you?
+Frizz: Nobody talks about the God King like that!
+Frizz: I see you really don't know him. Nobody survives his divine wrath. I don't know how he hasn't sent a lightning bolt straight at your head yet.
+Bob: Whoa!
+Bob: Okay, I'll be careful.
+$> wait(1.0)
+Bob: Hey... where does this door lead?
+Frizz: It takes you directly to the {{ GameController.game_data.vocabulary.list["main_plaza"] }}.
+Bob: I think I'll take my chances and see if someone can help me get out of here.
+Frizz: Good luck on your journey, outsider Bob.
+Frizz: But first, I need to clarify something...
+Frizz: The beings of Haledor are created by the God King already knowing our world, and all other beings find out about their arrivals immediately.
+Frizz: You're the first being that seems to have come from somewhere else, and I didn't know you were going to arrive.
+Frizz: I may be friendly, but not everyone here is. Be careful.
+Bob: I'll take care of myself. Thanks for the warning.
+Frizz: Don't mention it. Good luck!
+=> END
+
+# es
+~ start
+Frizz: ¡Alto ahí, forastero! ¿De dónde vienes y a dónde vas?
+$> wait(2.0)
+Bob: Pero qué... ¿quién eres?
+Frizz: ¡Saludos! Me llamo Frizz.
+Frizz: Soy el guardián de la puerta principal de Haledor.
+Bob: Hale... ¿qué?
+Frizz: Haledor. Es el nombre de nuestro mundo.
+Frizz: ¿Cómo es que no lo conoces?
+Bob: Bueno... yo... estoy confundido.
+Bob: Estaba en mi oficina, algo apareció, me absorbió y me trajo aquí.
+Frizz: Oh, entiendo. Odio las cosas que absorben. Son impredecibles.
+Frizz: ¡Bienvenido a Haledor, forastero!
+Frizz: Por cierto, ¿cómo te llamas?
+Bob: Bob. Me llamo Bob.
+Bob: Dime una cosa, no estamos en el planeta Tierra, ¿verdad?
+Frizz: ¿Qué es el planeta Tierra? ¿Se come?
+Bob: Cierto, no estamos...
+Bob: ¿Puedes decirme cómo salimos de Hale...
+Frizz: ¡Haledor!
+Bob: Eso, Haledor. ¿Puedes decirme cómo salgo de aquí?
+Bob: Necesito llegar a casa antes de las 19:00, mi esposa se va a preocupar y todavía tengo que hacer la cena.
+Frizz: ¡Jajaja! ¡Esa es buena! Irse de Haledor...
+Bob: ¿Qué tiene de gracioso?
+Frizz: Amigo, nadie "se va de Haledor". Los seres solo llegan aquí, pero nunca se van.
+Bob: Tienes que estar bromeando.
+Bob: Necesito ir a trabajar mañana. Mi jefe se va a poner furioso.
+Frizz: Lo siento, pero no estoy bromeando.
+Frizz: Haledor es un mundo cuidadosamente creado por el Rey Dios para ser el paraíso. A veces crea seres que llegan aquí y cruzan la puerta a mi lado.
+Frizz: Pero la única forma de salir de aquí es... bueno... ya sabes, ¿no?
+Bob: No sé, ¿cuál es la única forma de salir de aquí?
+Frizz: Muerto.
+Bob: ¡Jesús!
+Bob: ¿Y dónde está ese tal Rey Dios? Quizás él pueda sacarme de aquí si hablo con él.
+Frizz: Nadie habla con el Rey Dios. Siempre es él quien nos habla, nunca al revés.
+Bob: Solo faltaba esa... ¿quién se cree que es este tipo?
+Frizz: Shh... ¿estás loco? ¿Quieres que te oiga?
+Frizz: ¡Nadie habla así del Rey Dios!
+Frizz: Veo que realmente no lo conoces. Nadie sobrevive a su ira divina. No sé cómo todavía no te ha mandado un rayo directo a la cabeza.
+Bob: ¡Uf!
+Bob: Ok, tendré cuidado.
+$> wait(1.0)
+Bob: Oye... ¿a dónde lleva esta puerta?
+Frizz: Te lleva directamente al {{ GameController.game_data.vocabulary.list["main_plaza"] }}.
+Bob: Creo que me arriesgaré y veré si alguien puede ayudarme a salir de aquí.
+Frizz: Buena suerte en tu viaje, forastero Bob.
+Frizz: Pero antes, necesito aclarar una cosa...
+Frizz: Los seres de Haledor son creados por el Rey Dios conociendo nuestro mundo, y todos los demás seres se enteran de sus llegadas inmediatamente.
+Frizz: Eres el primer ser que parece haber venido de otro lugar, y yo no sabía que ibas a llegar.
+Frizz: Yo puedo ser simpático, pero no todos aquí lo son. Ten cuidado.
+Bob: Me cuidaré. Gracias por la advertencia.
+Frizz: No hay de qué. ¡Buena suerte!
+=> END

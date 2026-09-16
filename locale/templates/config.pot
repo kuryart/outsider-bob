@@ -1,0 +1,19 @@
+# LANGUAGE translation for Outsider Bob for the following files:
+# res://scenes/config/config.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Outsider Bob\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: scenes/config/config.tscn
+msgid "Difficulty"
+msgstr ""
+
+msgid "Outsider Bob"
+msgstr ""

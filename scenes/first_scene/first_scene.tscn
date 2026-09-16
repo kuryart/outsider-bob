@@ -1,39 +1,121 @@
 [gd_scene format=3 uid="uid://bdqod05f7soio"]
 
-[ext_resource type="Texture2D" uid="uid://bxwd80clbjkka" path="res://src/ground/ground.png" id="1_ive1o"]
 [ext_resource type="Script" uid="uid://dfpq6phjod2cg" path="res://scenes/first_scene/first_scene.gd" id="1_sj4b4"]
 [ext_resource type="Resource" uid="uid://cymv3h1x15gjc" path="res://scenes/first_scene/dialogues/first_scene_dialogue_01.dialogue" id="2_qgd1q"]
-[ext_resource type="PackedScene" uid="uid://cox8ve3prsqkg" path="res://nodes/char/bob.tscn" id="2_tgdok"]
+[ext_resource type="PackedScene" uid="uid://cox8ve3prsqkg" path="res://nodes/char/bob/bob.tscn" id="2_tgdok"]
+[ext_resource type="Texture2D" uid="uid://cev2l8javao6y" path="res://src/scenarios/first-scene/sky/sky.png" id="3_x258p"]
+[ext_resource type="Texture2D" uid="uid://cle61cdwha1xd" path="res://assets/sprites/scenario/first-scene/ground.png" id="4_x258p"]
 [ext_resource type="Script" uid="uid://bd046eokvcnu2" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="5_han5p"]
+[ext_resource type="Texture2D" uid="uid://ccpph35x240v7" path="res://assets/sprites/scenario/first-scene/door.png" id="5_wy2na"]
 [ext_resource type="Script" uid="uid://bhexx6mj1xv3q" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd" id="6_thehm"]
+[ext_resource type="PackedScene" uid="uid://cj34kvjakvodx" path="res://nodes/char/frizz/frizz.tscn" id="6_ton04"]
 [ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="7_x258p"]
-[ext_resource type="Texture2D" uid="uid://drt5dc1qaaeh7" path="res://src/frizz/frizz.png" id="8_thehm"]
+[ext_resource type="Script" uid="uid://ch841tiwqc6bf" path="res://nodes/event/event_area.gd" id="11_i1ys6"]
+[ext_resource type="Script" uid="uid://xsdkvvrgqmnw" path="res://scenes/first_scene/events/frizz_dialogue_01.gd" id="12_ton04"]
+[ext_resource type="Resource" uid="uid://cgoo6amfk3lu" path="res://scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue" id="13_r31lj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m7nh0"]
+size = Vector2(20, 163)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a8vre"]
+size = Vector2(3841, 37)
 
 [sub_resource type="Resource" id="Resource_wy2na"]
 script = ExtResource("7_x258p")
+
+[sub_resource type="Animation" id="Animation_ton04"]
+resource_name = "slide_right"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(640, 360), Vector2(3200, 360)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_r31lj"]
+_data = {
+&"slide_right": SubResource("Animation_ton04")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tw5yj"]
+size = Vector2(30, 57)
 
 [node name="FirstScene" type="Node2D" unique_id=871219804]
 script = ExtResource("1_sj4b4")
 dialogue_01 = ExtResource("2_qgd1q")
 
+[node name="Sky_01" type="Sprite2D" parent="." unique_id=639466111]
+position = Vector2(640, 360)
+texture = ExtResource("3_x258p")
+
+[node name="Sky_02" type="Sprite2D" parent="." unique_id=2121910963]
+position = Vector2(1920, 360)
+texture = ExtResource("3_x258p")
+
+[node name="Sky_03" type="Sprite2D" parent="." unique_id=1918371724]
+position = Vector2(3200, 360)
+texture = ExtResource("3_x258p")
+
 [node name="Ground_01" type="Sprite2D" parent="." unique_id=1144025115]
 position = Vector2(640, 360)
-texture = ExtResource("1_ive1o")
+texture = ExtResource("4_x258p")
 
 [node name="Ground_02" type="Sprite2D" parent="." unique_id=2130736192]
 position = Vector2(1920, 360)
-texture = ExtResource("1_ive1o")
+texture = ExtResource("4_x258p")
 
 [node name="Ground_03" type="Sprite2D" parent="." unique_id=984876166]
 position = Vector2(3200, 360)
-texture = ExtResource("1_ive1o")
+texture = ExtResource("4_x258p")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1437927523]
-position = Vector2(616, 384)
-texture = ExtResource("8_thehm")
+[node name="CollisionSide" type="StaticBody2D" parent="." unique_id=1470132411]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="CollisionSide" unique_id=273158300]
+position = Vector2(3850, 590)
+shape = SubResource("RectangleShape2D_m7nh0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CollisionSide" unique_id=661144958]
+position = Vector2(-10, 588.5)
+shape = SubResource("RectangleShape2D_m7nh0")
+
+[node name="CollisionBottom" type="StaticBody2D" parent="." unique_id=1010114232]
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="CollisionBottom" unique_id=816645090]
+position = Vector2(2561, 593)
+polygon = PackedVector2Array(178, 3, 167, -2, 103, -5, -1, -2, -1, 76, 110, 81, 421, 75, 1279, 115, 1279, 0, 1231, 31, 1204.5199, 39.03885, 1182, 45, 1146, 47, 1142, 39, 1136, 26, 1123, 20, 1103.8262, 21.282928, 988.9657, 22.685135, 799, 33, 799, 11, 440, 1, 434, 31, 384, 37, 359, 36, 192, 29, 188, 15)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="CollisionBottom" unique_id=1765541226]
+position = Vector2(1281, 593)
+polygon = PackedVector2Array(178, 3, 167, -2, 103, -5, -1, -2, -1, 76, 110, 81, 421, 75, 1279, 115, 1279, 0, 1231, 31, 1204.5199, 39.03885, 1182, 45, 1146, 47, 1142, 39, 1136, 26, 1123, 20, 1103.8262, 21.282928, 988.9657, 22.685135, 799, 33, 799, 11, 440, 1, 434, 31, 384, 37, 359, 36, 192, 29, 188, 15)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="CollisionBottom" unique_id=2104873096]
+position = Vector2(1, 593)
+polygon = PackedVector2Array(178, 3, 167, -2, 103, -5, -1, -2, -1, 76, 110, 81, 421, 75, 1279, 115, 1279, 0, 1231, 31, 1204.5199, 39.03885, 1182, 45, 1146, 47, 1142, 39, 1136, 26, 1123, 20, 1103.8262, 21.282928, 988.9657, 22.685135, 799, 33, 799, 11, 440, 1, 434, 31, 384, 37, 359, 36, 192, 29, 188, 15)
+
+[node name="CollisionTop" type="StaticBody2D" parent="." unique_id=1071828164]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CollisionTop" unique_id=1163351490]
+position = Vector2(1919.5, 605.5)
+shape = SubResource("RectangleShape2D_a8vre")
+
+[node name="Door" type="Sprite2D" parent="." unique_id=530805555]
+position = Vector2(3536, 313)
+texture = ExtResource("5_wy2na")
+
+[node name="Frizz" parent="." unique_id=1175049130 instance=ExtResource("6_ton04")]
+position = Vector2(3216, 384)
 
 [node name="Bob" parent="." unique_id=1226768601 instance=ExtResource("2_tgdok")]
-position = Vector2(96, 456)
+unique_name_in_owner = true
+position = Vector2(141, 476)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1592267649]
 physics_interpolation_mode = 1
@@ -54,6 +136,7 @@ interpolation_mode = 2
 metadata/_custom_type_script = "uid://bd046eokvcnu2"
 
 [node name="PhantomCamera2D" type="Node2D" parent="." unique_id=1202776349 node_paths=PackedStringArray("follow_target")]
+unique_name_in_owner = true
 top_level = true
 position = Vector2(640, 360)
 script = ExtResource("6_thehm")
@@ -66,3 +149,20 @@ limit_top = 0
 limit_right = 3840
 limit_bottom = 720
 metadata/_custom_type_script = "uid://bhexx6mj1xv3q"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="PhantomCamera2D" unique_id=1054810546]
+libraries/ = SubResource("AnimationLibrary_r31lj")
+
+[node name="DialogueStart" type="Area2D" parent="." unique_id=694323510]
+position = Vector2(2735, 585)
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("11_i1ys6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DialogueStart" unique_id=235777130]
+position = Vector2(5, -11.5)
+shape = SubResource("RectangleShape2D_tw5yj")
+
+[node name="EventBus" type="Node" parent="DialogueStart" unique_id=1194814544]
+script = ExtResource("12_ton04")
+dialogue = ExtResource("13_r31lj")

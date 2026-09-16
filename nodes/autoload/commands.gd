@@ -6,5 +6,5 @@ func change_scene(scene: PackedScene) -> void:
 func wait(duration: float) -> void:
 	await get_tree().create_timer(duration).timeout
 
-func start_dialogue(dialogue: DialogueResource, cue = "start") -> void:
+func start_dialogue(dialogue: DialogueResource, cue: String = "start") -> void:
 	DialogueManager.show_dialogue_balloon_scene(GameController.dialogue_balloon, dialogue, cue)
