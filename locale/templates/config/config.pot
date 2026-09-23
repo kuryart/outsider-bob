@@ -1,0 +1,95 @@
+# LANGUAGE translation for Outsider Bob for the following files:
+# res://scenes/config/config.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Outsider Bob\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: scenes/config/config.tscn
+msgid "DIFFICULTY"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "Hard"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "[i]You have no options. Life is hard, dude.[/i]"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "VISUAL"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "DLSS"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "V-Sync"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "Anti-Aliasing"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "Character's Creaminess"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "[i]Visual options do nothing. But you can change them. You have free will.[/i]"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "LANGUAGE"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "English"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "Português (BR)"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "Español"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "[i]Languages actually are useful settings.[/i]"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "AUDIO"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "Background Music"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "Sound Effects"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "Background Sounds"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "Musical Effects"
+msgstr ""
+
+#: scenes/config/config.tscn
+msgid "[i]\"Music is the language of the spirit\" - Khalil Gibran[/i]"
+msgstr ""
+
+msgid "Outsider Bob"
+msgstr ""

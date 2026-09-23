@@ -1,0 +1,33 @@
+# LANGUAGE translation for Outsider Bob for the following files:
+# res://scenes/first_scene/dialogues/first_scene_dialogue_03.dialogue
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Outsider Bob\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#. TRANSLATORS: Character name
+#: scenes/first_scene/dialogues/first_scene_dialogue_03.dialogue
+msgctxt "dialogue"
+msgid "Frizz"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_03.dialogue:1
+msgctxt "dialogue"
+msgid "I lost my cell phone. If you find it, could you give it me back?"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_03.dialogue:2
+msgctxt "dialogue"
+msgid "Don't steal it, ok?"
+msgstr ""
+
+msgid "Outsider Bob"
+msgstr ""

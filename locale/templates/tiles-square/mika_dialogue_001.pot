@@ -1,0 +1,177 @@
+# LANGUAGE translation for Outsider Bob for the following files:
+# res://scenes/tiles_square/dialogues/mika_dialogue_001.dialogue
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Outsider Bob\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#. TRANSLATORS: Character name
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue
+msgctxt "dialogue"
+msgid "Mika"
+msgstr ""
+
+#. TRANSLATORS: Character name
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue
+msgctxt "dialogue"
+msgid "Bob"
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:1
+msgctxt "dialogue"
+msgid "Who are you? I've never seen you around here."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:2
+msgctxt "dialogue"
+msgid "Hi, my name is Bob. And yours?"
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:3
+msgctxt "dialogue"
+msgid "Mika."
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:4
+msgctxt "dialogue"
+msgid "What do you want?"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:5
+msgctxt "dialogue"
+msgid "I'm looking for a way to leave Haledor. Can you help me?"
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:6
+msgctxt "dialogue"
+msgid "What do you mean \"leave Haledor\"? Are you making fun of me?"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:7
+msgctxt "dialogue"
+msgid "No, not at all. I'm serious."
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:8
+msgctxt "dialogue"
+msgid "Nobody has ever left Haledor alive. Every now and then someone dares to confront the God King and ends up leaving here dead. But alive? Never."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:9
+msgctxt "dialogue"
+msgid "So what that... being... in the other room said is actually true..."
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:10
+msgctxt "dialogue"
+msgid "Are you talking about Frizz?"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:11
+msgctxt "dialogue"
+msgid "Yes."
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:12
+msgctxt "dialogue"
+msgid "Ah, that guy is a good person."
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:13
+msgctxt "dialogue"
+msgid "A friend of Frizz is a friend of mine too."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:14
+msgctxt "dialogue"
+msgid "Oh yeah, I guess we're friends now."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:16
+msgctxt "dialogue"
+msgid "Hey... does that cannon on your back work?"
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:17
+msgctxt "dialogue"
+msgid "It works. It has a destructive power equal to 0.003 Megatons."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:18
+msgctxt "dialogue"
+msgid "I have no idea what that means, but it sounds powerful."
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:19
+msgctxt "dialogue"
+msgid "I'd show you, but it's unloaded."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:20
+msgctxt "dialogue"
+msgid "It must be nice to have a cannon on your back. If I had one, nobody would have messed with me at school."
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:21
+msgctxt "dialogue"
+msgid "Actually, I don't like it. This cannon blocks my wings, so I can't fly."
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:22
+msgctxt "dialogue"
+msgid "Just imagine: a ladybug that can't fly."
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:23
+msgctxt "dialogue"
+msgid "That's my biggest dream. I'd give anything to be able to fly."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:24
+msgctxt "dialogue"
+msgid "My biggest dream right now is to get out of here."
+msgstr ""
+
+#. TRANSLATORS: Character: Mika
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:25
+msgctxt "dialogue"
+msgid "Good luck, Bob. But your journey won't succeed."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/tiles_square/dialogues/mika_dialogue_001.dialogue:26
+msgctxt "dialogue"
+msgid "We'll see..."
+msgstr ""
+
+msgid "Outsider Bob"
+msgstr ""

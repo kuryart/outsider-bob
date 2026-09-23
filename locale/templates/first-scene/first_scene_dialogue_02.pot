@@ -1,0 +1,321 @@
+# LANGUAGE translation for Outsider Bob for the following files:
+# res://scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Outsider Bob\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#. TRANSLATORS: Character name
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue
+msgctxt "dialogue"
+msgid "Frizz"
+msgstr ""
+
+#. TRANSLATORS: Character name
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue
+msgctxt "dialogue"
+msgid "Bob"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:1
+msgctxt "dialogue"
+msgid "Hold it right there, outsider! Where did you come from and where are you going?"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:3
+msgctxt "dialogue"
+msgid "What the... who are you?"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:4
+msgctxt "dialogue"
+msgid "Greetings! My name is Frizz."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:5
+msgctxt "dialogue"
+msgid "I'm the guardian of the main gate of Haledor."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:6
+msgctxt "dialogue"
+msgid "Hale... the what?"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:7
+msgctxt "dialogue"
+msgid "Haledor. That's the name of our world."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:8
+msgctxt "dialogue"
+msgid "How do you not know it?"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:9
+msgctxt "dialogue"
+msgid "Well... I... I'm confused."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:10
+msgctxt "dialogue"
+msgid "I was in my office at work, something appeared, sucked me in and brought me here."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:11
+msgctxt "dialogue"
+msgid "Oh, I see. I hate things that suck. They're unpredictable."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:12
+msgctxt "dialogue"
+msgid "Welcome to Haledor, outsider!"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:13
+msgctxt "dialogue"
+msgid "By the way, what's your name?"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:14
+msgctxt "dialogue"
+msgid "Bob. My name is Bob."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:15
+msgctxt "dialogue"
+msgid "Tell me something, we're not on planet Earth, are we?"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:16
+msgctxt "dialogue"
+msgid "What's planet Earth? Is it something you eat?"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:17
+msgctxt "dialogue"
+msgid "Right, we're not..."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:18
+msgctxt "dialogue"
+msgid "Can you tell me how we get out of Hale..."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:19
+msgctxt "dialogue"
+msgid "Haledor!"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:20
+msgctxt "dialogue"
+msgid "Yeah, Haledor. Can you tell me how I get out of here?"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:21
+msgctxt "dialogue"
+msgid "I need to get home before 7:00 PM, my wife is going to worry and I still have to make dinner."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:22
+msgctxt "dialogue"
+msgid "Hahaha! That's a good one! Leave Haledor..."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:23
+msgctxt "dialogue"
+msgid "What's so funny?"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:24
+msgctxt "dialogue"
+msgid "Friend, nobody \"leaves Haledor.\" Beings only arrive here, but they never leave."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:25
+msgctxt "dialogue"
+msgid "You've got to be kidding me."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:26
+msgctxt "dialogue"
+msgid "I need to go to work tomorrow. My boss is going to be furious."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:27
+msgctxt "dialogue"
+msgid "I'm sorry, but I'm not kidding."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:28
+msgctxt "dialogue"
+msgid "Haledor is a world carefully created by the God King to be paradise. Sometimes he creates beings that arrive here and pass through the gate beside me."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:29
+msgctxt "dialogue"
+msgid "But the only way to leave here is... well... you know, right?"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:30
+msgctxt "dialogue"
+msgid "I don't know, what's the only way to leave here?"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:31
+msgctxt "dialogue"
+msgid "Dead."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:32
+msgctxt "dialogue"
+msgid "Yikes!"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:33
+msgctxt "dialogue"
+msgid "And where is this God King? Maybe he can get me out of here if I talk to him."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:34
+msgctxt "dialogue"
+msgid "Nobody talks to the God King. He's always the one who talks to us, never the other way around."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:35
+msgctxt "dialogue"
+msgid "That's just great... who does this guy think he is?"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:36
+msgctxt "dialogue"
+msgid "Shh... are you crazy? Do you want him to hear you?"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:37
+msgctxt "dialogue"
+msgid "Nobody talks about the God King like that!"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:38
+msgctxt "dialogue"
+msgid "I see you really don't know him. Nobody survives his divine wrath. I don't know how he hasn't sent a lightning bolt straight at your head yet."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:39
+msgctxt "dialogue"
+msgid "Whoa!"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:40
+msgctxt "dialogue"
+msgid "Okay, I'll be careful."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:42
+msgctxt "dialogue"
+msgid "Hey... where does this door lead?"
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:44
+msgctxt "dialogue"
+msgid "It takes you directly to the {{ GameController.game_data.vocabulary.list[\"main_plaza\"] }}."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:45
+msgctxt "dialogue"
+msgid "I think I'll take my chances and see if someone can help me get out of here."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:46
+msgctxt "dialogue"
+msgid "Good luck on your journey, outsider Bob."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:47
+msgctxt "dialogue"
+msgid "But first, I need to clarify something..."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:48
+msgctxt "dialogue"
+msgid "The beings of Haledor are created by the God King already knowing our world, and all other beings find out about their arrivals immediately."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:49
+msgctxt "dialogue"
+msgid "You're the first being that seems to have come from somewhere else, and I didn't know you were going to arrive."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:50
+msgctxt "dialogue"
+msgid "I may be friendly, but not everyone here is. Be careful."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:51
+msgctxt "dialogue"
+msgid "I'll take care of myself. Thanks for the warning."
+msgstr ""
+
+#. TRANSLATORS: Character: Frizz
+#: scenes/first_scene/dialogues/first_scene_dialogue_02.dialogue:52
+msgctxt "dialogue"
+msgid "Don't mention it. Good luck!"
+msgstr ""
+
+msgid "Outsider Bob"
+msgstr ""

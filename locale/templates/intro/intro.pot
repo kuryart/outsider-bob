@@ -1,0 +1,63 @@
+# LANGUAGE translation for Outsider Bob for the following files:
+# res://scenes/title/dialogues/intro.dialogue
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Outsider Bob\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#. TRANSLATORS: Character name
+#: scenes/title/dialogues/intro.dialogue
+msgctxt "dialogue"
+msgid "Bob"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/title/dialogues/intro.dialogue:1
+msgctxt "dialogue"
+msgid "Argh! The workday is finally over!"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/title/dialogues/intro.dialogue:2
+msgctxt "dialogue"
+msgid "Sometimes I think I'm going to lose lose mind in this place."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/title/dialogues/intro.dialogue:3
+msgctxt "dialogue"
+msgid "How did I ended this way? This was never what I've dreamed of for myself."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/title/dialogues/intro.dialogue:4
+msgctxt "dialogue"
+msgid "But then again, who would dream of a job like this? With a boss like mine? With a setup like this?"
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/title/dialogues/intro.dialogue:5
+msgctxt "dialogue"
+msgid "Just look at this chair. It's too big for me."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/title/dialogues/intro.dialogue:6
+msgctxt "dialogue"
+msgid "Come to think for it, it seems like nothing in this room is right for me. I feel like a stranger, an outsider in my own workplace."
+msgstr ""
+
+#. TRANSLATORS: Character: Bob
+#: scenes/title/dialogues/intro.dialogue:7
+msgctxt "dialogue"
+msgid "I just wish everything could be different..."
+msgstr ""
+
+msgid "Outsider Bob"
+msgstr ""

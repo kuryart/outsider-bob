@@ -1,5 +1,5 @@
 # LANGUAGE translation for Outsider Bob for the following files:
-# res://scenes/config/config.tscn
+# res://scenes/title/title.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -11,8 +11,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: scenes/config/config.tscn
-msgid "Difficulty"
+#: scenes/title/title.tscn
+msgid "NEW GAME"
+msgstr ""
+
+#: scenes/title/title.tscn
+msgid "LOAD GAME"
+msgstr ""
+
+#: scenes/title/title.tscn
+msgid "SETTINGS"
+msgstr ""
+
+#: scenes/title/title.tscn
+msgid "EXIT"
 msgstr ""
 
 msgid "Outsider Bob"
